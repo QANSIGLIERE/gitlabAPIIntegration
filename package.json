@@ -1,0 +1,38 @@
+{
+  "name": "qansigliere-gitlab-api-integration",
+  "version": "0.0.1",
+  "description": "The main idea of ​​this library created in the JavaScript language is to provide a ready-made set of API methods for integration with Gitlab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QANSIGLIERE/gitlabAPIIntegration.git"
+  },
+  "keywords": [
+    "npm",
+    "npmjs",
+    "git",
+    "gitlab",
+    "api",
+    "integration",
+    "qansigliere",
+    "js",
+    "gitlab",
+    "api",
+    "integration"
+  ],
+  "author": "qansigliere@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QANSIGLIERE/gitlabAPIIntegration/issues"
+  },
+  "homepage": "https://github.com/QANSIGLIERE/gitlabAPIIntegration#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "qansigliere-axios-utils": "^1.0.0"
+  }
+}
