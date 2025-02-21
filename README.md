@@ -30,13 +30,13 @@ export GITLAB_AUTH_TOKEN="__YOUR_APIKEY__"
 
 Just run in the terminal the following command: `source gitlab.env`
 
-### Repositories
+### Projects
 
-#### Get information about all repositories
+#### Get information about all projects
 
 ```
 let newIntegration = new Gitlab_API();
-let request = await newIntegration.getAllRepositories();
+let request = await newIntegration.getAllProjects();
 ```
 
 ## Improvements & Suggestions
