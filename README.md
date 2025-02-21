@@ -41,11 +41,20 @@ let request = await newIntegration.getAllProjects();
 
 ### Merge Requests
 
-#### Get information about all projects
+#### Get information about all merge requests
 
 ```
 let newIntegration = new Gitlab_API();
 let request = await newIntegration.getAllMergeRequests();
+```
+
+### Merge Request Notes
+
+#### Get information about all merge request notes
+
+```
+let newIntegration = new Gitlab_API();
+let request = await newIntegration.getAllMergeRequestNotes(id, merge_request_iid);
 ```
 
 ## Improvements & Suggestions
